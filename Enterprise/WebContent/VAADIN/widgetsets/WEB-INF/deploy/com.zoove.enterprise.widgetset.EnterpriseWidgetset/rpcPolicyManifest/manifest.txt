@@ -1,0 +1,2 @@
+# Module com.zoove.enterprise.widgetset.EnterpriseWidgetset
+# RPC service class, partial path of RPC policy file

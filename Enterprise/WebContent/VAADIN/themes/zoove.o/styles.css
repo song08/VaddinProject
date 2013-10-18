@@ -1,0 +1,256 @@
+@import url(../chameleon/styles.css);
+/* Using the old default theme (runo) as the basis for now */
+/* Add some padding to the tree */
+.v-tree {
+    padding-top: 8px;
+    padding-left: 4px;
+}
+
+.mybackground {
+	background: #0291D3;
+}
+
+.myform {
+	background: transparent;
+}
+
+.myform .v-button {
+    display: block;
+    background: transparent;
+	border: none;
+}
+
+.myform .v-button .v-button-wrap {
+    background: #0291D3;
+	border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.myform .v-nativebutton,
+.myform .v-nativebutton .v-nativebutton-caption,
+.myform .v-button,
+.myform .v-button .v-button-caption {
+	text-decoration: none;
+	font-size: 12px;
+	color: White;
+	line-height: normal;
+}
+.myform .v-nativebutton,
+.myform .v-button {
+	font-family: arial, helvetica, verdana, sans-serif;
+}
+.v-mac .myform .v-nativebutton,
+.v-mac .myform .v-button {
+	font-family: helvetica, arial, verdana, sans-serif;
+}
+.myform .v-nativebutton:focus,
+.myform .v-button:focus {
+	outline: none;
+}
+
+.navigator {
+	background: #0291D3;
+}
+
+.navigator .v-button-wrap,
+.navigator .v-nativebutton-wrap {
+    background: transparent;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.navigator .v-link,
+.navigator .v-nativebutton,
+.navigator .v-button {
+	display: block;
+	background: transparent;
+	border: none;
+}
+.navigator .v-nativebutton::-moz-focus-inner,
+.navigator .v-button::-moz-focus-inner, {
+	border: none;
+	padding: 0;
+}
+.navigator .v-link a span,
+.navigator .v-link a:link span,
+.navigator .v-link a:visited span,
+.navigator .v-link a:hover span,
+.navigator .v-nativebutton,
+.navigator .v-nativebutton .v-nativebutton-caption,
+.navigator .v-button,
+.navigator .v-button .v-button-caption {
+	text-decoration: none;
+	font-size: 12px;
+	color: White;
+	line-height: normal;
+}
+.navigator .v-link a,
+.navigator .v-nativebutton,
+.navigator .v-button {
+	font-family: arial, helvetica, verdana, sans-serif;
+}
+.v-mac .navigator .v-link a,
+.v-mac .navigator .v-nativebutton,
+.v-mac .navigator .v-button {
+	font-family: helvetica, arial, verdana, sans-serif;
+}
+.navigator .v-nativebutton:focus,
+.navigator .v-button:focus {
+	outline: none;
+}
+
+.navigator .v-menubar {
+	border: none;
+	background: transparent;
+}
+
+.v-app {
+/*    background: #0291D3;*/
+    font-family: arial, helvetica, verdana, sans-serif;
+    color: #222;
+}
+
+.v-Notification-warning h1, .v-Notification-warning p {
+    display: inline;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: normal;
+    margin: 0 0 0 0;
+}
+
+.v-Notification-warning {
+    background: #fff1e4;
+    color: #dd3400;
+    border: none;
+    opacity: 1;
+}
+
+.mainbody .maintitle {
+	background: transparent url(images/border.png) repeat-x 0 41px;
+	padding-bottom: 10px;
+}
+.mainbody .maintitle .title {
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #1e2229;
+	letter-spacing: -0.015em;
+	text-shadow: 0 2px 1px #c0c1c2;
+	padding: 7px 0 8px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.mainbody .maintitle .v-link,
+.mainbody .maintitle .v-nativebutton,
+.mainbody .maintitle .v-button {
+	padding-bottom: 10px;
+	display: block;
+	margin: 0 0 0 10px;
+}
+.mainbody .maintitle .v-nativebutton::-moz-focus-inner,
+.mainbody .maintitle .v-button::-moz-focus-inner, {
+	border: none;
+	padding: 0;
+}
+.mainbody .maintitle .v-link a span,
+.mainbody .maintitle .v-link a:link span,
+.mainbody .maintitle .v-link a:visited span,
+.mainbody .maintitle .v-link a:hover span,
+.mainbody .maintitle .v-nativebutton,
+.mainbody .maintitle .v-nativebutton .v-nativebutton-caption,
+.mainbody .maintitle .v-button,
+.mainbody .maintitle .v-button .v-button-caption {
+	text-decoration: none;
+	font-size: 12px;
+	color: #2667b4;
+	line-height: normal;
+}
+.mainbody .maintitle .v-link a,
+.mainbody .maintitle .v-nativebutton,
+.mainbody .maintitle .v-button {
+	font-family: arial, helvetica, verdana, sans-serif;
+}
+.v-mac .mainbody .maintitle .v-link a,
+.v-mac .mainbody .maintitle .v-nativebutton,
+.v-mac .mainbody .maintitle .v-button {
+	font-family: helvetica, arial, verdana, sans-serif;
+}
+.mainbody .maintitle .v-nativebutton:focus,
+.mainbody .maintitle .v-button:focus {
+	outline: none;
+}
+
+.v-table-header-wrap,
+.v-table-header-drag {
+    background: #0291D3 url(images/grad-light-top.png) repeat-x;
+    height: 1.4em;
+    line-height: normal;
+}
+
+.v-table-row-odd {
+	background: #EAEDEF;
+}
+
+.v-ie6 .v-table-header-wrap,
+.v-ie6 .v-table-header-drag {
+    background-image: none;
+}
+
+.footer {
+	background: url(images/border.png) repeat-x 0 0px;
+}
+
+.v-window-wrap {
+	background-image: none;
+	background: #ffffff;
+}
+
+.v-form fieldset {
+	border: none;
+	border-top: 1px solid #babfc0;
+}
+.v-form-nocaption fieldset {
+	border: none;
+}
+.v-form-nocaption legend {
+	display: none;
+}
+.v-form legend {
+	margin: 0 0 0 20px;
+	padding: 0 5px;
+	font-weight: bold;
+	color: #222;
+}
+.v-form-errormessage {
+	font-weight: bolder;
+	color: red;
+}
+
+/* Lay the options horizontally */
+.v-select-optiongroup-horizontal .v-select-option {
+    display: inline-block;
+}
+
+/* Avoid wrapping if the layout is too tight */
+.v-select-optiongroup-horizontal {
+    white-space: nowrap;
+}
+
+/* Some extra spacing is needed */
+.v-select-optiongroup-horizontal
+  .v-select-option.v-radiobutton {
+    padding-right: 10px;
+}

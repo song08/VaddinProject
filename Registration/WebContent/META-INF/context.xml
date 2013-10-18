@@ -1,0 +1,19 @@
+<!--Context>
+ 
+	     <ResourceLink name="zapapps/mydb"
+				global="jdbc/zoovedb"
+                type="javax.sql.DataSource"/>
+</Context-->
+<Context>
+ <Resource name="zapapps/mydb"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="zapapps"
+              password="zoove123"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://172.16.0.212/mydb"
+              maxActive="15"
+              maxIdle="3"
+              validationQuery="Select 1"
+/>
+</Context>

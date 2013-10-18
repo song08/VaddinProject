@@ -1,0 +1,58 @@
+@import url(../reindeer/styles.css);
+
+.v-Notification-warning h1, .v-Notification-warning p {
+    display: inline;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: normal;
+    margin: 0 0 0 0;
+}
+
+.v-Notification-warning {
+    background: #fff1e4;
+    color: #dd3400;
+    border: none;
+    opacity: 1;
+}
+
+/* Lay the options horizontally */
+.v-select-optiongroup-horizontal .v-select-option {
+    display: inline-block;
+}
+
+/* Avoid wrapping if the layout is too tight */
+.v-select-optiongroup-horizontal {
+    white-space: nowrap;
+}
+
+/* Some extra spacing is needed */
+.v-select-optiongroup-horizontal
+  .v-select-option.v-radiobutton {
+    padding-right: 10px;
+}
+
+.navigator {
+	background: #0291D3;
+}
+
+/*.mainbody .maintitle {
+	background: transparent url(images/border.png) repeat-x 0 45px;
+	padding-bottom: 6px;
+}*/
+.mainbody .maintitle .title {
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #1e2229;
+	letter-spacing: -0.015em;
+	text-shadow: 0 2px 1px #c0c1c2;
+	padding: 7px 0 8px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.footer {
+	background: url(images/border.png) repeat-x 0 0px;
+}
